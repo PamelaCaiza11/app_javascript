@@ -4,7 +4,7 @@ const app = express();
 
 // Configurar la ruta principal
 app.get('/', (req, res) => {
-  res.send('Hello World en Node JS');
+  res.send('Hello World! from Node JS');
 });
 
 // Configurar el puerto en el que la app va a escuchar
